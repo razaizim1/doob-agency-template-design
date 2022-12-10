@@ -64,6 +64,10 @@
         display: none;
     }
 
+    .footer-menu {
+        display: block;
+    }
+
     .menu-bar {
         display: block;
     }
@@ -86,6 +90,10 @@
     .blogs {
         grid-template-columns: 1fr;
     }
+
+    .footer-heading {
+        font-size: 4rem;
+    }
 }
 
 
@@ -104,6 +112,14 @@
 
     .form-half {
         grid-template-columns: 1fr;
+    }
+
+    .footer-area ul {
+        flex-wrap: wrap;
+    }
+
+    .footer-area ul li a {
+        margin-bottom: 1rem;
     }
 }
 
@@ -124,9 +140,5 @@
     .secondary-btn {
         margin-left: 4rem;
         margin-top: 2rem;
-    }
-
-    h2 {
-        fony
     }
 }

@@ -19,6 +19,7 @@ Author: Razai Zim;
     --color2: #ff3946;
     --color3: #6e757a;
     --color4: #fff;
+    --arrow-color: #bbbbbc;
 }
 
 html {
@@ -32,7 +33,7 @@ body {
 }
 
 .fa-arrow-left {
-    color: var(--color3);
+    color: var(--arrow-color);
 }
 
 a {
@@ -73,7 +74,7 @@ h4 {
 p {
     font-size: 1.8rem;
     font-weight: 400;
-    color: var(--color3);
+    color: var(--color1);
     line-height: 2.5rem;
 }
 
@@ -88,7 +89,7 @@ img {
 }
 
 .primary-btn {
-    padding: 1.8rem 3.5rem;
+    padding: 1.7rem 4rem;
     background-color: var(--color2);
     color: var(--color4);
     border-radius: 2.7rem;
@@ -138,10 +139,10 @@ img {
 }
 
 .menu-bar {
-    font-size: 4rem;
-    color: var(--color2);
-    display: none;
-}
+	font-size: 3rem;
+	color: var(--color2);
+	display: none;
+}   
 
 .menu ul {
     padding: 0;
@@ -184,8 +185,8 @@ img {
 
 .top-btn {
     margin-left: 4.5rem;
+    padding: 1.5rem 2.5rem;
     font-size: 1.8rem;
-    padding: 1.6rem 3rem;
     -webkit-box-shadow: 0px 5px 10px 0px rgba(51, 25, 27, 0.15);
     box-shadow: 0px 5px 10px 0px rgba(51, 25, 27, 0.15);
     border-radius: .5rem;
@@ -196,7 +197,11 @@ img {
     transition: .5s;
 }
 
-.header-btn a:hover {
+.top-btn a {
+    font-size: 3rem;
+}
+
+.top-btn:hover {
     color: var(--color4);
     background-color: var(--color2);
 }
@@ -204,7 +209,7 @@ img {
 select {
     border: none;
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--color1);
     outline: none;
     cursor: pointer;
@@ -222,21 +227,22 @@ select {
 
 .banner-content {
     width: 50%;
-    padding: 13rem 0;
+    padding: 10rem 0;
 }
 
 .banner-content h1 {
-    font-size: 6.5rem;
+    font-size: 6rem;
     color: var(--color1);
     font-weight: 600;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+    max-width: 550px;
 }
 
 .banner-content p {
     font-size: 1.8rem;
     color: var(--color3);
     line-height: 2.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .banner-img {
@@ -269,6 +275,10 @@ select {
     font-size: 1.4rem;
 }
 
+.single-service .primary-btn {
+    font-size: 1.4rem;
+}
+
 .single-service:not(:first-child) {
     -webkit-box-shadow: 0px 5px 10px 0px rgba(25, 45, 51, 0.15);
     box-shadow: 0px 5px 10px 0px rgba(25, 45, 51, 0.15);
@@ -295,7 +305,7 @@ select {
 }
 
 .service-padding {
-    padding: 11rem 0;
+    padding: 10rem 0;
 }
 
 .service-area {
@@ -333,7 +343,7 @@ select {
 
 .about-content h2 {
     max-width: 380px;
-    margin: 1.5rem 0px 6rem;
+    margin: 1rem 0px 6rem;
 }
 
 .about-right ul {
@@ -414,7 +424,7 @@ select {
 }
 
 .work-content {
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 }
 
 .work-content h2 {
@@ -431,7 +441,15 @@ select {
 
 .work-btn {
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 3rem;
+}
+
+.work-btn a {
+    color: var(--color2);
+}
+
+.work-btn:hover a {
+    color: var(--color1);
 }
 
 .work-section a {
@@ -559,7 +577,7 @@ select {
 }
 
 .single-blog {
-    padding: 4rem;
+    padding: 3rem;
     background-color: rgb(255, 255, 255);
     -webkit-box-shadow: 0px 5px 10px 0px rgba(25, 45, 51, 0.15);
     box-shadow: 0px 5px 10px 0px rgba(25, 45, 51, 0.15);
@@ -588,7 +606,7 @@ select {
 .single-blog .blog-date {
     font-size: 1.4rem;
     color: var(--color3);
-    margin: 2rem 0 4rem 0;
+    margin: 1rem 0 3rem 0;
 }
 
 .single-blog p a {
@@ -643,7 +661,7 @@ select {
     font-size: 1.5rem;
     opacity: 1;
     color: var(--color1);
-    font-weight: 600;
+    font-weight: normal;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -696,6 +714,7 @@ select {
     border: none;
     margin-top: 3rem;
     cursor: pointer;
+    font-weight: 500;
 }
 
 .submit {
@@ -721,7 +740,7 @@ select {
 }
 
 .footer-menu {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .footer-menu ul {
@@ -762,11 +781,11 @@ select {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .social-icons ul li a {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin: 0 2rem;
 }
 
